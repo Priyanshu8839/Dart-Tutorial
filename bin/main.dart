@@ -76,14 +76,21 @@ void main() {
   print((p == m) && (q == o));
   print((p == m) || (q == o));
 
-  // Type test Operators
-  var nam = "Sonam";
-  var numbe = 100;
-  print(nam is String);
-  print(numbe is! int);
-
   // Assignment Operators
   var n = 10;
   n += 5; //n = n + 5
   print(n);
+
+  // Conditional Expression
+var is_logi = false;
+var user = is_logi ? 'Sonam' : 'Guest';
+print(user);
+
+// string
+  String name1 = 'sonam';
+  print(name1);
+  print(name1.runtimeType);
+
+  String name2 = "rahul";
+  print(name2);
 }
