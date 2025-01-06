@@ -68,6 +68,16 @@ void main() {
   print(x >= y);
   print(x <= y);
 
+    // Equality and Relational operators
+  var s = 100;
+  var t = 200;
+  print(s == t);
+  print(s != t);
+  print(s > t);
+  print(s < t);
+  print(s >= t);
+  print(s <= t);
+
   // Logical Operators
   var p = 100;
   var m = 100;
@@ -93,4 +103,6 @@ print(user);
 
   String name2 = "rahul";
   print(name2);
+
+
 }
