@@ -96,6 +96,11 @@ var is_logi = false;
 var user = is_logi ? 'Sonam' : 'Guest';
 print(user);
 
+// Conditional Expression
+var isa_logi = true;
+var User = isa_logi ? 'Priyanshu' : 'Guest';
+print(User);
+
 // string
   String name1 = 'sonam';
   print(name1);
