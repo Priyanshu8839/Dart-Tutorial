@@ -57,6 +57,15 @@ void main() {
   print(i);
   print(i++);
   print(i);
+  print(++i);
+  print(i);
+
+var j = 5;
+  print(j);
+  print(j--);
+  print(j);
+  print(--j);
+  print(j);
 
   // Equality and Relational operators
   var x = 100;
