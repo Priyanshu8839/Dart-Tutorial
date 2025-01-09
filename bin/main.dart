@@ -93,7 +93,9 @@ var j = 5;
   var q = 200;
   var o = 200;
   print((p == m) && (q == o));
+  print((p == q) && (m == o));
   print((p == m) || (q == o));
+  print((p == o) || (q == m));
 
   // Assignment Operators
   var n = 10;
