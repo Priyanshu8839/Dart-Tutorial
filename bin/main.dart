@@ -1,5 +1,4 @@
 void main() {
-
   // This is a Single line comment
 
   /*
@@ -14,7 +13,7 @@ void main() {
   // Print a variable
   print(name);
 
-   // Built -in Data Types
+  // Built -in Data Types
   // 1. Integers
   int cart_item = 10;
   print(cart_item);
@@ -39,7 +38,7 @@ void main() {
 
   // Check datatype
   print(quantity.runtimeType);
-  
+
   // Opeartors
 // 1. Arithmetic Operators
   var a = 10;
@@ -47,8 +46,13 @@ void main() {
   var c = 50;
   var d = 100;
   print(a + b);
+  print(a + c);
   print(a - c);
+  print(a - b);
+  print(a * b);
+  print(a * c);
   print(a * d);
+  print(a / d);
   print(d / b);
   print(d % b);
 
@@ -60,7 +64,7 @@ void main() {
   print(++i);
   print(i);
 
-var j = 5;
+  var j = 5;
   print(j);
   print(j--);
   print(j);
@@ -77,7 +81,7 @@ var j = 5;
   print(x >= y);
   print(x <= y);
 
-    // Equality and Relational operators
+  // Equality and Relational operators
   var s = 100;
   var t = 200;
   print(s == t);
@@ -103,14 +107,14 @@ var j = 5;
   print(n);
 
   // Conditional Expression
-var is_logi = false;
-var user = is_logi ? 'Sonam' : 'Guest';
-print(user);
+  var is_logi = false;
+  var user = is_logi ? 'Sonam' : 'Guest';
+  print(user);
 
 // Conditional Expression
-var isa_logi = true;
-var User = isa_logi ? 'Priyanshu' : 'Guest';
-print(User);
+  var isa_logi = true;
+  var User = isa_logi ? 'Priyanshu' : 'Guest';
+  print(User);
 
 // string
   String name1 = 'sonam';
@@ -119,6 +123,4 @@ print(User);
 
   String name2 = "rahul";
   print(name2);
-
-
 }
