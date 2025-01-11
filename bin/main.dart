@@ -116,11 +116,4 @@ void main() {
   var User = isa_logi ? 'Priyanshu' : 'Guest';
   print(User);
 
-// string
-  String name1 = 'sonam';
-  print(name1);
-  print(name1.runtimeType);
-
-  String name2 = "rahul";
-  print(name2);
 }
