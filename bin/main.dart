@@ -43,7 +43,7 @@ void main() {
 // 1. Arithmetic Operators
   var a = 10;
   var b = 20;
-  var c = 50;
+  var c = 5000;
   var d = 100;
   print(a + b);
   print(a + c);
@@ -72,7 +72,7 @@ void main() {
   print(j);
 
   // Equality and Relational operators
-  var x = 100;
+  var x = 300;
   var y = 200;
   print(x == y);
   print(x != y);
@@ -82,8 +82,8 @@ void main() {
   print(x <= y);
 
   // Equality and Relational operators
-  var s = 100;
-  var t = 200;
+  var s = 1000;
+  var t = 500;
   print(s == t);
   print(s != t);
   print(s > t);
@@ -108,7 +108,7 @@ void main() {
 
   // Conditional Expression
   var is_logi = false;
-  var user = is_logi ? 'Sonam' : 'Guest';
+  var user = is_logi ? 'Raj' : 'Guest';
   print(user);
 
 // Conditional Expression
