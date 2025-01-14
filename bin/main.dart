@@ -46,18 +46,18 @@ void main() {
   var c = 5000;
   var d = 100;
   print(a + b);
-  print(a + c);
+  print(a + d);
   print(a - c);
   print(a - b);
   print(a * b);
   print(a * c);
-  print(a * d);
+  print(b * d);
   print(a / d);
   print(d / b);
   print(d % b);
 
   //Prefix and Postfix Increment and Decrement operators
-  var i = 3;
+  var i = 30;
   print(i);
   print(i++);
   print(i);
