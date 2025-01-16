@@ -59,14 +59,14 @@ void main() {
   //Prefix and Postfix Increment and Decrement operators
   var i = 30;
   print(i);
-  print(i++);
+  print(i--);
   print(i);
   print(++i);
   print(i);
 
   var j = 5;
   print(j);
-  print(j--);
+  print(j++);
   print(j);
   print(--j);
   print(j);
@@ -103,7 +103,7 @@ void main() {
 
   // Assignment Operators
   var n = 10;
-  n += 5; //n = n + 5
+  n -= 5; //n = n - 5
   print(n);
 
   // Conditional Expression
