@@ -106,6 +106,10 @@ void main() {
   n -= 5; //n = n - 5
   print(n);
 
+  var z = 10;
+  z += 15; //z = z + 15
+  print(z);
+
   // Conditional Expression
   var is_logi = false;
   var user = is_logi ? 'Raj' : 'Guest';
@@ -115,5 +119,4 @@ void main() {
   var isa_logi = true;
   var User = isa_logi ? 'Priyanshu' : 'Guest';
   print(User);
-
 }
