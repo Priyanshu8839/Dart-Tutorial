@@ -76,8 +76,6 @@ void main() {
   var y = 200;
   print(x == y);
   print(x != y);
-  print(x > y);
-  print(x < y);
   print(x >= y);
   print(x <= y);
 
