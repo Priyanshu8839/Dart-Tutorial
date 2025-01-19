@@ -86,8 +86,6 @@ void main() {
   print(s != t);
   print(s > t);
   print(s < t);
-  print(s >= t);
-  print(s <= t);
 
   // Logical Operators
   var p = 100;
