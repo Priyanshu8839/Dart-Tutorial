@@ -80,8 +80,8 @@ void main() {
   print(x <= y);
 
   // Equality and Relational operators
-  var s = 1000;
-  var t = 500;
+  var s = 50000;
+  var t = 5000;
   print(s == t);
   print(s != t);
   print(s > t);
