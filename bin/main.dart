@@ -46,10 +46,8 @@ void main() {
   var c = 5000;
   var d = 100;
   print(a + b);
-  print(a + d);
   print(a - c);
   print(a - b);
-  print(a * b);
   print(a * c);
   print(b * d);
   print(a / d);
