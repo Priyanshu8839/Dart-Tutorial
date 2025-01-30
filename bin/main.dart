@@ -113,4 +113,13 @@ void main() {
   var isa_logi = true;
   var User = isa_logi ? 'Priyanshu' : 'Guest';
   print(User);
+
+  var my = namee();
+  my.printname();
+}
+
+class namee {
+  void printname() {
+    print('Priyanshu Goyal');
+  }
 }
