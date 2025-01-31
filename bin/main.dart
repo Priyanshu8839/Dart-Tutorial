@@ -116,6 +116,9 @@ void main() {
 
   var my = namee();
   my.printname();
+  my.printname();
+  my.printname();
+  my.printname();
 }
 
 class namee {
