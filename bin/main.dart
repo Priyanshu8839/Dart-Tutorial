@@ -111,7 +111,7 @@ void main() {
 
 // Conditional Expression
   var isa_logi = true;
-  var User = isa_logi ? 'Priyanshu' : 'Guest';
+  var User = isa_logi ? 'Priyanshu' :
   print(User);
 
   var my = namee();
